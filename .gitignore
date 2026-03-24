@@ -19,18 +19,6 @@ obj/
 *.o
 *.su
 
-# --- SolidWorks ---
-# Archivos temporales de simulación y de bloqueo
-*~
-~$*
-*.swp
-*.sldlfp
-*.sldlfp
-*.tmp
-# Si haces simulaciones de fluidos (Flow Simulation), estas carpetas pesan GBs:
-*.fld
-*.cwr
-
 # --- Sistema y Editores ---
 .DS_Store
 Thumbs.db
