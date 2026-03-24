@@ -1,0 +1,38 @@
+# --- KiCad ---
+# Archivos de respaldo y temporales de diseño
+*.bak
+*.kicad_prl
+*-backups/
+_autosave-*
+*.lck
+
+# --- STM32 (CubeIDE / Keil / Makefile) ---
+# No subimos binarios ni objetos (solo el código fuente)
+Debug/
+Release/
+bin/
+obj/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.su
+
+# --- SolidWorks ---
+# Archivos temporales de simulación y de bloqueo
+*~
+~$*
+*.swp
+*.sldlfp
+*.sldlfp
+*.tmp
+# Si haces simulaciones de fluidos (Flow Simulation), estas carpetas pesan GBs:
+*.fld
+*.cwr
+
+# --- Sistema y Editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+.history/
