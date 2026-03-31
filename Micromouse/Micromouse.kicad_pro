@@ -984,7 +984,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "ss",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -1015,15 +1015,15 @@
     ],
     [
       "bca2c901-5ffe-4019-85eb-4102ffed0bef",
-      "MP6551"
+      "MP6551_Izq"
+    ],
+    [
+      "b2cb268e-7320-46ef-8a01-ca7af7b3afbf",
+      "MP6551_Der"
     ],
     [
       "a2d088fc-e8cc-463a-973e-f43769c9e43f",
       "IR_sensor"
-    ],
-    [
-      "ef0f72a6-0ba9-4ff4-aa56-0ead89541d62",
-      "Fan"
     ]
   ],
   "text_variables": {}
