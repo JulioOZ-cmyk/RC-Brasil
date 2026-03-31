@@ -1422,7 +1422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10799a30-7ee1-40c8-a439-e0cf2ee807a5")
-		(property "Reference" "R20"
+		(property "Reference" "R34"
 			(at 107.95 101.6 90)
 			(effects
 				(font
@@ -1773,7 +1773,7 @@
 		(instances
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/358c7740-1065-4f93-94de-62d9b382bca9"
-					(reference "R20")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -1788,7 +1788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2154b037-4636-4dc1-a29c-e2f8742921f7")
-		(property "Reference" "R19"
+		(property "Reference" "R33"
 			(at 107.95 95.25 90)
 			(effects
 				(font
@@ -2139,7 +2139,7 @@
 		(instances
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/358c7740-1065-4f93-94de-62d9b382bca9"
-					(reference "R19")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2154,7 +2154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "336bfefc-a0a7-4315-adc0-418d8557ae57")
-		(property "Reference" "C25"
+		(property "Reference" "C47"
 			(at 187.325 88.265 0)
 			(effects
 				(font
@@ -2505,7 +2505,7 @@
 		(instances
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/358c7740-1065-4f93-94de-62d9b382bca9"
-					(reference "C25")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -3078,7 +3078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MicromouseHuellas:Encoder1"
 			(at 79.375 92.075 0)
 			(effects
 				(font
@@ -3432,7 +3432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dabb8761-ff99-4cb6-9029-c59f9a3fe229")
-		(property "Reference" "C26"
+		(property "Reference" "C48"
 			(at 199.39 88.265 0)
 			(effects
 				(font
@@ -3783,7 +3783,7 @@
 		(instances
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/358c7740-1065-4f93-94de-62d9b382bca9"
-					(reference "C26")
+					(reference "C48")
 					(unit 1)
 				)
 			)
