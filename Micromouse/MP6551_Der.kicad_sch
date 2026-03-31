@@ -2182,7 +2182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06816079-68c8-4fab-8bca-4320d5c2dc75")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 177.038 126.492 0)
 			(effects
 				(font
@@ -2232,7 +2232,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/b2cb268e-7320-46ef-8a01-ca7af7b3afbf"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2701,7 +2701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17d642d1-2c15-4e84-a416-c2ac3977d742")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 106.045 99.187 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/b2cb268e-7320-46ef-8a01-ca7af7b3afbf"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3499,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32ec274e-b216-4cab-874f-d265ad185be4")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 129.032 137.922 0)
 			(effects
 				(font
@@ -3549,7 +3549,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/b2cb268e-7320-46ef-8a01-ca7af7b3afbf"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3565,7 +3565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35cabf42-ca71-43e1-b504-450d005d3619")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 185.42 88.392 0)
 			(effects
 				(font
@@ -3615,7 +3615,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/b2cb268e-7320-46ef-8a01-ca7af7b3afbf"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4364,7 +4364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6974c51a-9d1d-40b3-a099-d4f5958406af")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 118.237 96.139 0)
 			(effects
 				(font
@@ -4414,7 +4414,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/b2cb268e-7320-46ef-8a01-ca7af7b3afbf"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
