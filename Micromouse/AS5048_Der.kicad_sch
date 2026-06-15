@@ -1323,7 +1323,7 @@
 		)
 		(uuid "49237867-6b0e-482f-b0f6-1866ef367256")
 	)
-	(label "GND_s"
+	(label "+3V0_s"
 		(at 118.11 92.075 180)
 		(effects
 			(font
@@ -1383,7 +1383,7 @@
 		)
 		(uuid "8d74771a-922f-4383-8714-37d5d01e380d")
 	)
-	(label "+3V0_s"
+	(label "GND_s"
 		(at 118.11 89.535 180)
 		(effects
 			(font
@@ -1440,7 +1440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.125 101.473 90)
 			(effects
 				(font
@@ -1764,6 +1764,33 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 111.125 99.695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.125 99.695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 111.125 99.695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90efbb05-f54a-4297-ba76-c6b1b20a18f1")
 		)
@@ -1806,7 +1833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.125 98.933 90)
 			(effects
 				(font
@@ -2130,6 +2157,33 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 111.125 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.125 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 111.125 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4373807-6a78-492a-b4f3-e87a4e134624")
 		)
@@ -2154,7 +2208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "336bfefc-a0a7-4315-adc0-418d8557ae57")
-		(property "Reference" "C47"
+		(property "Reference" "C45"
 			(at 187.325 88.265 0)
 			(effects
 				(font
@@ -2172,7 +2226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.0052 94.615 0)
 			(effects
 				(font
@@ -2496,6 +2550,33 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 193.04 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 193.04 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 193.04 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "380f6d73-2f72-44ec-92e8-7dbdfce4a68f")
 		)
@@ -2505,7 +2586,7 @@
 		(instances
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/358c7740-1065-4f93-94de-62d9b382bca9"
-					(reference "C47")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -2521,7 +2602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8805d6a8-9dd3-497a-8223-ae56af2f124d")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 143.51 74.295 0)
 			(effects
 				(font
@@ -3002,6 +3083,33 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 143.51 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 143.51 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 143.51 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "a19482d2-b416-4a3e-a081-faba66b721e4")
 		)
@@ -3047,7 +3155,7 @@
 		(instances
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/358c7740-1065-4f93-94de-62d9b382bca9"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3062,7 +3170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3321717-003f-4577-b3f6-cefc7d063451")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 80.645 81.28 0)
 			(effects
 				(font
@@ -3402,6 +3510,33 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 79.375 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 79.375 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 79.375 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a63b6467-aca5-49ac-8537-e96685eaf273")
 		)
@@ -3417,7 +3552,7 @@
 		(instances
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/358c7740-1065-4f93-94de-62d9b382bca9"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3432,7 +3567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dabb8761-ff99-4cb6-9029-c59f9a3fe229")
-		(property "Reference" "C48"
+		(property "Reference" "C46"
 			(at 199.39 88.265 0)
 			(effects
 				(font
@@ -3450,7 +3585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 206.0702 94.615 0)
 			(effects
 				(font
@@ -3774,6 +3909,33 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 205.105 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.105 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 205.105 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea35c7e8-5798-4bdf-abb0-a82f0e6cfc13")
 		)
@@ -3783,7 +3945,7 @@
 		(instances
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/358c7740-1065-4f93-94de-62d9b382bca9"
-					(reference "C48")
+					(reference "C46")
 					(unit 1)
 				)
 			)

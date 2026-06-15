@@ -1078,7 +1078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f1d4286-ecbf-48a2-b36b-882667bed516")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 193.04 98.425 0)
 			(effects
 				(font
@@ -1128,7 +1128,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/48901c7f-a0cf-4078-a2bc-b3b72fecfd57"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1144,7 +1144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e0cc315-48a4-4380-9fac-6a507c2ed09f")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 193.04 114.3 0)
 			(effects
 				(font
@@ -1194,7 +1194,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/48901c7f-a0cf-4078-a2bc-b3b72fecfd57"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1210,7 +1210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c8b89b9-cc7b-4827-86bb-0de3d7048ea7")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 153.67 71.12 0)
 			(effects
 				(font
@@ -1552,6 +1552,33 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fe2d575d-3219-453e-88f8-8a9648972d17")
 		)
@@ -1597,7 +1624,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/48901c7f-a0cf-4078-a2bc-b3b72fecfd57"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1612,7 +1639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "773ed69b-5d7c-4082-8e79-b4fa6593ef45")
-		(property "Reference" "C49"
+		(property "Reference" "C47"
 			(at 115.8875 103.1875 0)
 			(effects
 				(font
@@ -1621,7 +1648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 117.1575 100.6475 0)
 			(effects
 				(font
@@ -1630,7 +1657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 108.2548 99.695 0)
 			(effects
 				(font
@@ -1954,6 +1981,33 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 109.22 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 109.22 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 109.22 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67d47e6a-d52b-4a88-b292-18b4b29b52a9")
 		)
@@ -1963,7 +2017,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/48901c7f-a0cf-4078-a2bc-b3b72fecfd57"
-					(reference "C49")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -1978,7 +2032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c64fd42f-a022-430f-ad31-1d1061b704f6")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 109.22 85.09 0)
 			(effects
 				(font
@@ -2028,7 +2082,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/48901c7f-a0cf-4078-a2bc-b3b72fecfd57"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2044,7 +2098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f13c198f-a081-416a-be85-e11e72007f14")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 104.14 116.205 0)
 			(effects
 				(font
@@ -2094,7 +2148,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/48901c7f-a0cf-4078-a2bc-b3b72fecfd57"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2109,7 +2163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3210b48-d640-45a7-9587-3c427f1c9e89")
-		(property "Reference" "C50"
+		(property "Reference" "C48"
 			(at 199.7075 101.9175 0)
 			(effects
 				(font
@@ -2118,7 +2172,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 200.9775 99.3775 0)
 			(effects
 				(font
@@ -2127,7 +2181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 192.0748 98.425 0)
 			(effects
 				(font
@@ -2451,6 +2505,33 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 193.04 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 193.04 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 193.04 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a08af2b-97c9-48d6-b83c-5f45c848a965")
 		)
@@ -2460,7 +2541,7 @@
 		(instances
 			(project "Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/48901c7f-a0cf-4078-a2bc-b3b72fecfd57"
-					(reference "C50")
+					(reference "C48")
 					(unit 1)
 				)
 			)
