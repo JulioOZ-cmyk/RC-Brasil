@@ -2600,7 +2600,7 @@
 		)
 		(uuid "05e78194-c7ce-48a1-af13-54f9d3239555")
 	)
-	(label "+3V0_2"
+	(label "+3V3_2"
 		(at 162.56 72.39 0)
 		(effects
 			(font
@@ -2610,7 +2610,7 @@
 		)
 		(uuid "05e90abb-9e1a-4c58-adb0-927bb844203a")
 	)
-	(label "+3V0_1"
+	(label "+3V3_1"
 		(at 82.55 32.512 0)
 		(effects
 			(font
@@ -2640,7 +2640,7 @@
 		)
 		(uuid "1090f5e4-15a7-4822-b363-7473433acc0a")
 	)
-	(label "+3V0_4"
+	(label "+3V3_4"
 		(at 238.252 91.44 0)
 		(effects
 			(font
@@ -2650,7 +2650,7 @@
 		)
 		(uuid "20a0cee3-62ef-4467-8598-c483398a2878")
 	)
-	(label "+3V0_3"
+	(label "+3V3_3"
 		(at 41.275 131.445 0)
 		(effects
 			(font
@@ -2680,7 +2680,7 @@
 		)
 		(uuid "3b5fc35c-db46-4a15-a9db-7b16b0f32f16")
 	)
-	(label "+3V0_3"
+	(label "+3V3_3"
 		(at 116.84 91.44 0)
 		(effects
 			(font
@@ -2690,7 +2690,7 @@
 		)
 		(uuid "4efb77d2-e056-4ac8-866a-7db41397d307")
 	)
-	(label "+3V0_1"
+	(label "+3V3_1"
 		(at 41.275 72.39 0)
 		(effects
 			(font
@@ -2730,7 +2730,7 @@
 		)
 		(uuid "6f54e07c-e616-440a-8ca2-c7a693462a03")
 	)
-	(label "+3V0_4"
+	(label "+3V3_4"
 		(at 162.56 131.445 0)
 		(effects
 			(font
@@ -2740,7 +2740,7 @@
 		)
 		(uuid "77823fbe-ef8a-4d4f-a8f0-9c84440c2d47")
 	)
-	(label "+3V0_4"
+	(label "+3V3_4"
 		(at 203.962 91.44 0)
 		(effects
 			(font
@@ -2750,7 +2750,7 @@
 		)
 		(uuid "8af6a496-9da0-42c3-a245-7dadda46af9f")
 	)
-	(label "+3V0_1"
+	(label "+3V3_1"
 		(at 116.84 32.385 0)
 		(effects
 			(font
@@ -2760,7 +2760,7 @@
 		)
 		(uuid "918fe63a-57d9-4465-9d28-829d24b39d64")
 	)
-	(label "+3V0_3"
+	(label "+3V3_3"
 		(at 82.55 91.44 0)
 		(effects
 			(font
@@ -2790,7 +2790,7 @@
 		)
 		(uuid "a7318bcc-f2f7-4616-8b62-a08f24968498")
 	)
-	(label "+3V0_2"
+	(label "+3V3_2"
 		(at 203.708 32.512 0)
 		(effects
 			(font
@@ -2820,7 +2820,7 @@
 		)
 		(uuid "b8f1bc7d-a2dd-4799-92e1-c45d77290fd5")
 	)
-	(label "+3V0_2"
+	(label "+3V3_2"
 		(at 237.998 32.512 0)
 		(effects
 			(font
@@ -2959,7 +2959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10b1e326-419f-40dd-a0ee-a950b334ccc2")
-		(property "Reference" "R43"
+		(property "Reference" "R5"
 			(at 118.745 69.215 0)
 			(effects
 				(font
@@ -3341,6 +3341,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3352,7 +3358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2192ce2a-0e6b-483b-a989-7f4dad43675d")
-		(property "Reference" "R39"
+		(property "Reference" "R1"
 			(at 67.945 70.485 0)
 			(effects
 				(font
@@ -3734,6 +3740,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3745,7 +3757,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2756f38a-57ca-4cbc-9973-7bdb31e2a108")
-		(property "Reference" "Q7"
+		(property "Reference" "Q4"
 			(at 119.126 103.4796 0)
 			(effects
 				(font
@@ -3803,6 +3815,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3815,7 +3833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e7818e8-8056-41c8-836c-414f0fffa92d")
-		(property "Reference" "C56"
+		(property "Reference" "C2"
 			(at 104.775 111.76 0)
 			(effects
 				(font
@@ -4197,6 +4215,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4209,7 +4233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ef65e72-5828-47e5-9f1d-f2984917f51c")
-		(property "Reference" "C60"
+		(property "Reference" "C6"
 			(at 226.187 111.76 0)
 			(effects
 				(font
@@ -4591,6 +4615,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4602,7 +4632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3addb9f5-4104-4ddf-85a9-b09637e05135")
-		(property "Reference" "R46"
+		(property "Reference" "R8"
 			(at 189.357 129.667 0)
 			(effects
 				(font
@@ -4984,6 +5014,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4996,7 +5032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40d04594-9dda-497e-93e8-adc8d57c9485")
-		(property "Reference" "Q5"
+		(property "Reference" "Q2"
 			(at 85.725 124.4599 0)
 			(effects
 				(font
@@ -5384,6 +5420,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5395,7 +5437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5228b220-2628-4489-9068-622aae4a7406")
-		(property "Reference" "R48"
+		(property "Reference" "R10"
 			(at 201.422 99.695 90)
 			(effects
 				(font
@@ -5777,6 +5819,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5788,7 +5836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "564d0576-e62b-4e92-9375-23c9b53d4820")
-		(property "Reference" "D18"
+		(property "Reference" "D1"
 			(at 80.01 54.356 0)
 			(effects
 				(font
@@ -5845,6 +5893,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5856,7 +5910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58033ea9-47c2-4584-92f2-a7baafabeb4f")
-		(property "Reference" "D20"
+		(property "Reference" "D3"
 			(at 201.168 53.848 0)
 			(effects
 				(font
@@ -5913,6 +5967,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5924,7 +5984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "590b8bf5-5975-4857-b740-a751e482bd48")
-		(property "Reference" "R42"
+		(property "Reference" "R4"
 			(at 80.01 99.695 90)
 			(effects
 				(font
@@ -6306,6 +6366,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6317,7 +6383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64a63797-4dca-4228-a955-d98a23d1b60a")
-		(property "Reference" "R50"
+		(property "Reference" "R12"
 			(at 240.157 128.397 0)
 			(effects
 				(font
@@ -6699,6 +6765,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6710,7 +6782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fc61ac5-2225-4603-bb3e-a069adf2a00d")
-		(property "Reference" "C62"
+		(property "Reference" "C8"
 			(at 253.365 106.172 0)
 			(effects
 				(font
@@ -7092,6 +7164,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7103,7 +7181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74988c54-be27-4fd7-bf89-f2f376dcc847")
-		(property "Reference" "J17"
+		(property "Reference" "J4"
 			(at 156.21 123.19 0)
 			(effects
 				(font
@@ -7489,6 +7567,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7500,7 +7584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7622ffab-0493-4ebf-b46a-36a2acc4d631")
-		(property "Reference" "J15"
+		(property "Reference" "J2"
 			(at 34.925 123.19 0)
 			(effects
 				(font
@@ -7886,6 +7970,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7898,7 +7988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7774e361-29b0-4437-a257-0b77a92ce20e")
-		(property "Reference" "C59"
+		(property "Reference" "C5"
 			(at 226.187 52.832 0)
 			(effects
 				(font
@@ -8280,6 +8370,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8292,7 +8388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79900f04-ac3d-4d50-989a-0dca94c848c0")
-		(property "Reference" "Q9"
+		(property "Reference" "Q6"
 			(at 207.137 124.4599 0)
 			(effects
 				(font
@@ -8680,6 +8776,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8691,7 +8793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c05fd54-5f6f-4677-b957-618989e1a807")
-		(property "Reference" "R41"
+		(property "Reference" "R3"
 			(at 80.01 40.767 90)
 			(effects
 				(font
@@ -9073,6 +9175,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9084,7 +9192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80b213ae-1b53-4fee-a201-94849eea4403")
-		(property "Reference" "J14"
+		(property "Reference" "J1"
 			(at 34.925 64.135 0)
 			(effects
 				(font
@@ -9470,6 +9578,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9481,7 +9595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "845c6457-4ef4-4e78-8ee3-7813afcf85a7")
-		(property "Reference" "Q11"
+		(property "Reference" "Q8"
 			(at 240.538 103.7336 0)
 			(effects
 				(font
@@ -9539,6 +9653,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9550,7 +9670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85d57f8f-62d6-4154-b9ed-78263284c036")
-		(property "Reference" "R40"
+		(property "Reference" "R2"
 			(at 67.945 129.667 0)
 			(effects
 				(font
@@ -9932,6 +10052,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9943,7 +10069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a520c20-b3e9-4835-a874-50e8221abd7c")
-		(property "Reference" "D19"
+		(property "Reference" "D2"
 			(at 80.01 113.03 0)
 			(effects
 				(font
@@ -10000,6 +10126,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10011,7 +10143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91f85287-3fad-4e3f-8b6d-69a824358e4f")
-		(property "Reference" "J16"
+		(property "Reference" "J3"
 			(at 156.21 64.135 0)
 			(effects
 				(font
@@ -10397,6 +10529,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10408,7 +10546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98bc354a-acd8-4193-98c1-03565431fb78")
-		(property "Reference" "R47"
+		(property "Reference" "R9"
 			(at 201.168 40.767 90)
 			(effects
 				(font
@@ -10790,6 +10928,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10801,7 +10945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9aded350-5eb2-44ef-860f-dfaa40038db6")
-		(property "Reference" "C57"
+		(property "Reference" "C3"
 			(at 132.08 46.99 0)
 			(effects
 				(font
@@ -11183,6 +11327,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11194,7 +11344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad4745aa-57d7-46a6-a0e3-e3650785db34")
-		(property "Reference" "D21"
+		(property "Reference" "D4"
 			(at 201.422 113.03 0)
 			(effects
 				(font
@@ -11251,6 +11401,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11263,7 +11419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1e66dc1-8e4f-4945-a6d0-84335e4db215")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 85.725 65.5319 0)
 			(effects
 				(font
@@ -11651,6 +11807,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11662,7 +11824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd9361ac-de27-47e7-b5e1-4ecf51b86c7d")
-		(property "Reference" "R49"
+		(property "Reference" "R11"
 			(at 239.903 69.215 0)
 			(effects
 				(font
@@ -12044,6 +12206,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12055,7 +12223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "beb35bd7-3592-410d-a626-4acb487b0a44")
-		(property "Reference" "R45"
+		(property "Reference" "R7"
 			(at 189.357 70.485 0)
 			(effects
 				(font
@@ -12437,6 +12605,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12448,7 +12622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfeb9bd9-f009-4c30-aa4f-c20565d78fa9")
-		(property "Reference" "Q10"
+		(property "Reference" "Q7"
 			(at 240.284 44.5516 0)
 			(effects
 				(font
@@ -12506,6 +12680,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12517,7 +12697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c66d8ee7-8a4c-4a59-b0fd-18bc8b91e9ba")
-		(property "Reference" "Q6"
+		(property "Reference" "Q3"
 			(at 119.126 44.5516 0)
 			(effects
 				(font
@@ -12575,6 +12755,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12587,7 +12773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbf3caf7-4e4d-4b12-84d6-4bd08e7cd298")
-		(property "Reference" "Q8"
+		(property "Reference" "Q5"
 			(at 206.883 65.2779 0)
 			(effects
 				(font
@@ -12975,6 +13161,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12986,7 +13178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de0b5ca8-cc54-4124-a958-e45ebdb17406")
-		(property "Reference" "R44"
+		(property "Reference" "R6"
 			(at 118.745 128.397 0)
 			(effects
 				(font
@@ -13368,6 +13560,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13379,7 +13577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9faabe5-801c-4c97-a069-8ea31f6d29cf")
-		(property "Reference" "C58"
+		(property "Reference" "C4"
 			(at 132.207 106.172 0)
 			(effects
 				(font
@@ -13761,6 +13959,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13773,7 +13977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc2299a1-2e5c-462e-bea8-1943fbaf07f2")
-		(property "Reference" "C55"
+		(property "Reference" "C1"
 			(at 104.775 52.832 0)
 			(effects
 				(font
@@ -14155,6 +14359,12 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14166,7 +14376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd23ee8a-d11b-46df-8aa9-7c7535f54634")
-		(property "Reference" "C61"
+		(property "Reference" "C7"
 			(at 253.365 46.99 0)
 			(effects
 				(font
@@ -14548,6 +14758,18 @@
 					(unit 1)
 				)
 			)
+			(project "IR_sensor"
+				(path "/bbf1a686-ef05-4e05-a1ad-64a8a4d1ffd6"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

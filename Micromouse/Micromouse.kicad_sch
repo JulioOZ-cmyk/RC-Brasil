@@ -19587,7 +19587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 260.604 256.667 0)
 			(effects
 				(font
@@ -19840,7 +19840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 267.97 14.732 0)
 			(effects
 				(font
@@ -21612,7 +21612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 274.32 256.921 0)
 			(effects
 				(font
@@ -22732,7 +22732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 288.036 256.921 0)
 			(effects
 				(font
@@ -24667,7 +24667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 246.38 256.667 0)
 			(effects
 				(font
@@ -25984,7 +25984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 226.06 74.93 0)
 			(effects
 				(font
@@ -26144,7 +26144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 400.304 204.47 0)
 			(effects
 				(font
@@ -26602,7 +26602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 113.03 59.944 0)
 			(effects
 				(font
@@ -27446,7 +27446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 217.424 261.366 0)
 			(effects
 				(font
@@ -28985,7 +28985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 384.556 88.138 0)
 			(effects
 				(font
@@ -29144,7 +29144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 337.82 202.184 0)
 			(effects
 				(font
@@ -30734,7 +30734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 308.229 165.1 0)
 			(effects
 				(font
@@ -35920,7 +35920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 232.156 261.366 0)
 			(effects
 				(font
@@ -36602,7 +36602,7 @@
 				)
 			)
 		)
-		(property "Value" "ME6211C30M5G"
+		(property "Value" "ME6211C33M5G"
 			(at 363.22 85.09 0)
 			(effects
 				(font
@@ -38289,7 +38289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 226.568 161.544 0)
 			(effects
 				(font
@@ -39515,7 +39515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 72.898 84.836 0)
 			(effects
 				(font
@@ -41870,7 +41870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 58.42 84.328 0)
 			(effects
 				(font
@@ -46533,7 +46533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 105.918 59.69 0)
 			(effects
 				(font

@@ -1279,7 +1279,7 @@
 		)
 		(uuid "d8bb4684-b1be-474d-bcc1-fb45a2af7ef4")
 	)
-	(label "+3V0_s"
+	(label "+3V3_s"
 		(at 110.49 105.41 180)
 		(effects
 			(font
@@ -1359,7 +1359,7 @@
 		)
 		(uuid "a8ced407-5aaa-4cf6-87d8-a966162ad747")
 	)
-	(label "+3V0_s"
+	(label "+3V3_s"
 		(at 177.165 90.17 0)
 		(effects
 			(font
@@ -1369,7 +1369,7 @@
 		)
 		(uuid "b01d40b5-62d3-4e66-9bbb-d898a568aa65")
 	)
-	(label "+3V0_s"
+	(label "+3V3_s"
 		(at 200.66 90.17 0)
 		(effects
 			(font
@@ -1389,7 +1389,7 @@
 		)
 		(uuid "b840031d-fdda-48ef-995c-9bf844bd8b9d")
 	)
-	(label "+3V0_s"
+	(label "+3V3_s"
 		(at 212.725 90.17 0)
 		(effects
 			(font
@@ -1409,7 +1409,7 @@
 		)
 		(uuid "fac40331-44e3-45c5-b3da-18d3daebe68a")
 	)
-	(label "+3V0_s"
+	(label "+3V3_s"
 		(at 94.615 97.79 0)
 		(effects
 			(font
@@ -1439,7 +1439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07176b87-5254-45c5-ae51-400beaa1a7ff")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -1990,6 +1990,12 @@
 			(uuid "ec3c73d7-a162-4618-af6c-d8d8e8ed8c1a")
 		)
 		(instances
+			(project "Encoder_Izq"
+				(path "/7c92487d-362e-4a94-a0ea-71fb4eb52b74"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/30dace89-d7fa-480e-aff2-f8c5b12c4053"
 					(reference "U4")
@@ -2007,7 +2013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2629fd20-49d0-4c46-b6ec-fbb01b3a932f")
-		(property "Reference" "R31"
+		(property "Reference" "R1"
 			(at 115.57 103.505 90)
 			(effects
 				(font
@@ -2383,6 +2389,12 @@
 			(uuid "c18d9ad1-90b1-4019-a2be-614106264e34")
 		)
 		(instances
+			(project "Encoder_Izq"
+				(path "/7c92487d-362e-4a94-a0ea-71fb4eb52b74"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/30dace89-d7fa-480e-aff2-f8c5b12c4053"
 					(reference "R31")
@@ -2400,7 +2412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27a261de-2c4e-4dad-bf51-7012f9560c0e")
-		(property "Reference" "J10"
+		(property "Reference" "J1"
 			(at 88.265 89.535 0)
 			(effects
 				(font
@@ -2780,6 +2792,12 @@
 			(uuid "0d597042-cb0f-4ce7-940f-fa5e8b1f32ca")
 		)
 		(instances
+			(project "Encoder_Izq"
+				(path "/7c92487d-362e-4a94-a0ea-71fb4eb52b74"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/30dace89-d7fa-480e-aff2-f8c5b12c4053"
 					(reference "J10")
@@ -2797,7 +2815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdbf1635-c648-4125-80d0-8c4d40547bfa")
-		(property "Reference" "C44"
+		(property "Reference" "C2"
 			(at 207.01 96.52 0)
 			(effects
 				(font
@@ -3173,6 +3191,12 @@
 			(uuid "ecce9036-2987-4fdd-87b0-57e949bf1b1c")
 		)
 		(instances
+			(project "Encoder_Izq"
+				(path "/7c92487d-362e-4a94-a0ea-71fb4eb52b74"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/30dace89-d7fa-480e-aff2-f8c5b12c4053"
 					(reference "C44")
@@ -3190,7 +3214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d66c916a-676c-4847-819e-b2bca9fee7fe")
-		(property "Reference" "R32"
+		(property "Reference" "R2"
 			(at 115.57 109.855 90)
 			(effects
 				(font
@@ -3566,6 +3590,12 @@
 			(uuid "ef98ea65-22ba-4434-ab9b-4750bf29e528")
 		)
 		(instances
+			(project "Encoder_Izq"
+				(path "/7c92487d-362e-4a94-a0ea-71fb4eb52b74"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/30dace89-d7fa-480e-aff2-f8c5b12c4053"
 					(reference "R32")
@@ -3583,7 +3613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9a83c1d-c27b-40c7-a572-a0ae193f0993")
-		(property "Reference" "C43"
+		(property "Reference" "C1"
 			(at 194.945 96.52 0)
 			(effects
 				(font
@@ -3959,6 +3989,12 @@
 			(uuid "e86cc52c-e39c-4ac3-8e59-a11fb1662618")
 		)
 		(instances
+			(project "Encoder_Izq"
+				(path "/7c92487d-362e-4a94-a0ea-71fb4eb52b74"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "Half-Size Micromouse"
 				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7/30dace89-d7fa-480e-aff2-f8c5b12c4053"
 					(reference "C43")
@@ -3967,4 +4003,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
