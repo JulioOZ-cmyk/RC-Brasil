@@ -503,7 +503,7 @@
       "plot": "Encoder_Dergerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Modelos3DMicromouse/Encoder_Der.step",
       "svg": "",
       "vrml": ""
     },

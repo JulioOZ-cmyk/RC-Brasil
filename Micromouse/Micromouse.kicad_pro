@@ -503,7 +503,7 @@
       "plot": "Micromousegerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../PCBMicromouse/Micromouse.step",
+      "step": "Modelos3DMicromouse/Micromouse.step",
       "svg": "",
       "vrml": ""
     },
@@ -533,7 +533,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -542,7 +542,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -975,8 +975,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "${QUANTITY}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1030,14 +1030,6 @@
     [
       "96b72c82-8e98-4b00-820e-849de0fa96c7",
       "Root"
-    ],
-    [
-      "30dace89-d7fa-480e-aff2-f8c5b12c4053",
-      "AS5048_Izq"
-    ],
-    [
-      "358c7740-1065-4f93-94de-62d9b382bca9",
-      "AS5048_Der"
     ],
     [
       "48901c7f-a0cf-4078-a2bc-b3b72fecfd57",

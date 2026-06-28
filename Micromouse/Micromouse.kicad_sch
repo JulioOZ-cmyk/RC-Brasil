@@ -47595,88 +47595,6 @@
 		)
 	)
 	(sheet
-		(at 188.722 106.934)
-		(size 16.51 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "30dace89-d7fa-480e-aff2-f8c5b12c4053")
-		(property "Sheetname" "AS5048_Izq"
-			(at 188.722 106.2224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "AS5048_Izq.kicad_sch"
-			(at 182.372 122.936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Micromouse"
-				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 188.976 130.048)
-		(size 16.51 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "358c7740-1065-4f93-94de-62d9b382bca9")
-		(property "Sheetname" "AS5048_Der"
-			(at 188.976 129.3364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "AS5048_Der.kicad_sch"
-			(at 183.388 146.431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Micromouse"
-				(path "/96b72c82-8e98-4b00-820e-849de0fa96c7"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 153.162 107.061)
 		(size 16.51 15.24)
 		(exclude_from_sim no)
@@ -47758,7 +47676,7 @@
 		)
 	)
 	(sheet
-		(at 188.976 155.956)
+		(at 153.416 183.642)
 		(size 16.51 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47773,7 +47691,7 @@
 		)
 		(uuid "a2d088fc-e8cc-463a-973e-f43769c9e43f")
 		(property "Sheetname" "IR_sensor"
-			(at 188.976 155.2444 0)
+			(at 153.416 182.9304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47782,7 +47700,7 @@
 			)
 		)
 		(property "Sheetfile" "IR_sensor.kicad_sch"
-			(at 184.404 171.958 0)
+			(at 148.844 199.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)

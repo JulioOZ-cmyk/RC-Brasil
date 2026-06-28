@@ -490,7 +490,7 @@
       "plot": "Encoder_Izqgerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Encoder_Izq.step",
       "svg": "",
       "vrml": ""
     },
