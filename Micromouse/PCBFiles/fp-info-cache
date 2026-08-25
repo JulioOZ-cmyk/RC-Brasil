@@ -1,4 +1,4 @@
-26840108000898796
+26849030227747060
 1N4148WS
 SODFL2512X100N
 
@@ -13,6 +13,13 @@ SOD3715X145N
 0
 2
 2
+2N2222A
+TO92254P470H750-3
+
+
+0
+3
+3
 8.000MHz3.2x2.5mm
 XTAL_C3E-8.000-18-3030-R
 
@@ -62817,6 +62824,13 @@ heatsink
 0
 0
 0
+IRF530
+TO220BV
+<b>Molded Package</b><p>grid 2.54 mm
+
+0
+3
+3
 Imágenes
 DillingerLogo
 
@@ -74983,6 +74997,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PTN16-A10220K1B1
+POT_PTN16-A10220K1B1
+
+
+0
+3
+3
 PTS636_SM43J_SMTR_LFS
 SW_PTS636_SM43J_SMTR_LFS
 
@@ -97397,6 +97418,13 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
+RightAngleBTTHT
+4312560317X6
+
+
+0
+4
+4
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -97579,6 +97607,13 @@ DIO_SFH_4550
 0
 2
 2
+SK_95_25_STS_TO_220
+HSINK_SK_95_25_STS_TO_220
+
+
+0
+1
+1
 SMT-1227-T
 SMT1227T
 SMT-1227-T-2
